@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node"
+  },
+  "references": [
+    { "path": "./packages/shared-types" },
+    { "path": "./apps/frontend" },
+    { "path": "./apps/backend" }
+  ]
+}
